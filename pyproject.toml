@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "gradient-finance-chatbot/finance-chatbot"
+version = "0.1.0"
+description = "Simple chatbot that ingests finance data"
+authors = ["Gradient Developers"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >=3.9.8,<3.12"
+jupyter = "^1.0.0"
+llama-index = "^0.8.54"
+setuptools = "^68.2.2"
+streamlit = "^1.28.1"
+nltk = "^3.8.1"
+pydantic = "^1.10.5, <2"
+pymongo = { version = "^4.6.0", extras = ["srv"] }
+pypdf = "^3.17.0"
+python-dotenv = "^1.0.0"
+dnspython = "^2.4.2"
+gradientai = "^1.2.0"
+srvlookup = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
